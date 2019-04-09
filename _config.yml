@@ -1,4 +1,3 @@
 name: BC2DC Workshop 2019
 markdown: kramdown
-theme: jekyll-theme-tactile
-layout: default
+theme: jekyll-theme-dinky
