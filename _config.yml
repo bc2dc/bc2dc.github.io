@@ -1,3 +1,5 @@
 name: BC2DC Workshop 2019
 markdown: kramdown
 theme: jekyll-theme-tactile
+kramdown:
+  parse_block_html: true
