@@ -12,6 +12,12 @@ layout: default
   <p><A href="#s4">Submission Info</A><p>
   <p><A href="#s5">Program Comittee</A><p>
  -->
+  <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
+  <button class="tablinks" onclick="openCity(event, 'Organizers')">Organizers</button>
+  <!-- <button class="tablinks" onclick="openCity(event, 'Tokyo')">Timeline</button> -->
+  </div>
+
   <img src="/images/network2.png" alt="Network of heterogeneous platforms";> 
 	<p>
 	<ul>
@@ -21,13 +27,7 @@ layout: default
 	</ul>
 	<p>
 
-  <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
-  <!-- <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
-  </div>
-
-	<h2 id="Description" class="tabcontent"><A name="s1">Description</A></h2>
+	<h2 id="Description" class="tabcontent"><!-- <A name="s1"> -->Description<!-- </A> --></h2>
 	<p>
 	How can we enable e-Science developers to conceptualize research and translate it to system requirements?<br/>
   How should we make such processes understandable, reliable, stable and sustainable? <br/>
@@ -74,7 +74,7 @@ layout: default
           <dd>Camera-ready papers due for accepted papers</dd>
       </dl> -->
 
-  <h2><A name="s2">Organizers</A></h2>
+  <h2 id="Organizers" class="tabcontent"><!-- <A name="s2"> -->Organizers<!-- </A> --></h2>
   <p>Iraklis Klampanos, National Centre for Scientific Research "Demokritos", Greece</p>
   <p>Rosa Filgueira, The University of Edinburgh, UK</p>
   <p>Malcolm Atkinson, The University of Edinburgh, UK</p>
