@@ -6,23 +6,37 @@ layout: default
 <div class="blurb">
 	<!-- <h1>Bridging from Concepts to Data and Computation for eScience (BC2DC'19)</h1> -->
   <center><h2><a href="https://escience2019.sdsc.edu/">IEEE eScience 2019 Workshop</a></h2></center>
-  <!-- <p><A href="#s1">Description</A><p>
-  <p><A href="#s2">Organizers</A><p>
-  <p><A href="#s3">Timeline</A><p>
-  <p><A href="#s4">Submission Info</A><p>
-  <p><A href="#s5">Program Comittee</A><p>
- -->
-  <center>
+
+  <p>
+  <table frame="vsides">
+    <tr>
+      <A href="#s1">Description</A>
+    </tr>
+    <tr>
+      <A href="#s2">Organizers</A>
+    </tr>
+    <tr>
+      <A href="#s3">Timeline</A>
+    </tr>
+    <tr>
+      <A href="#s4">Submission Info</A>
+    </tr>
+    <tr>
+      <A href="#s5">Program Comittee</A>
+    </tr>
+  </p>
+
+<!--   <center>
   <p>
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
     <button class="tablinks" onclick="openCity(event, 'Organizers')">Organizers</button>
     <button class="tablinks" onclick="openCity(event, 'Timeline')">Timeline</button>
-    <button class="tablinks" onclick="openCity(event, 'Submission')">Timeline</button>
-    <button class="tablinks" onclick="openCity(event, 'Comittee')">Timeline</button>
+    <button class="tablinks" onclick="openCity(event, 'Submission')">Submission</button>
+    <button class="tablinks" onclick="openCity(event, 'Comittee')">Comittee</button>
   </div>
   </center>
-  </p>
+  </p> -->
 
   <img src="/images/network2.png" alt="Network of heterogeneous platforms";> 
 	<p>
@@ -31,9 +45,9 @@ layout: default
 		<li>When: <abbr title="To Be Decided">TBD</abbr></li>
 		<li>Where: San Diego, CA, US</li>
 	</ul>
-	<p>
+	</p>
 
-	<h2 id="Description" class="tabcontent"><!-- <A name="s1"> -->Description<!-- </A> --></h2>
+	<h2><A name="s1">Description</A></h2>
 	<p>
 	How can we enable e-Science developers to conceptualize research and translate it to system requirements?<br/>
   How should we make such processes understandable, reliable, stable and sustainable? <br/>
@@ -80,14 +94,14 @@ layout: default
           <dd>Camera-ready papers due for accepted papers</dd>
       </dl> -->
 
-  <h2 id="Organizers" class="tabcontent"><!-- <A name="s2"> -->Organizers<!-- </A> --></h2>
+  <h2><A name="s2">Organizers</A></h2>
   <p>Iraklis Klampanos, National Centre for Scientific Research "Demokritos", Greece</p>
   <p>Rosa Filgueira, The University of Edinburgh, UK</p>
   <p>Malcolm Atkinson, The University of Edinburgh, UK</p>
   <p>Rafael Ferreira da Silva, University of Southern California, CA, USA</p>
 
 
-  <h2 id="Timeline" class="tabcontent"><!-- <A name="s3"> -->Timeline (tentative)<!-- </A> --></h2>
+  <h2><A name="s3">Timeline (tentative)</A></h2>
   <p>
     <table frame="above">
       <tr>
@@ -113,31 +127,15 @@ layout: default
     </table>
   </p>
 
-  <h2 id="Submission" class="tabcontent"><!-- <A name="s4"> -->Submission Info<!-- </A> --></h2>
+  <h2><A name="s4">Submission Info</A></h2>
   <p>TBA</p>
   <!-- <p><abbr title="To Be Decided">TBD</abbr></p> -->
 
   <!-- <h2>Short Bio of the Organizers</h2> -->
-  <h2  id="Program Comittee" class="tabcontent"><!-- <A name="s5"> -->Program Comittee<!-- </A> --></h2>
+  <h2><A name="s5">Program Comittee</A></h2>
   <p>TBA</p>
   <!-- <p><abbr title="To Be Decided">TBD</abbr></p> -->
 
   <center><img src="/images/SanDiego.jpg" alt="San Diego Panorama";></center>
 
 </div><!-- /.blurb -->
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
